@@ -29,7 +29,7 @@ The comparison graphic reproduces the MAE/RMSE values printed in Table 5.5.1 of 
 
 The report's appendix (Chapter 8, PDF pages 51–96) contains preprocessing, feature engineering, Random Forest/XGBoost and GRU/LSTM examples, LLM prompt construction, FastAPI endpoints, dashboard React snippets and final classifier/regressor code. See [Appendix implementation notes](docs/REPORT_APPENDIX_NOTES.md) for an index and the important implementation details used in this reconstruction.
 
-**PDF note:** the uploaded original PDF was available for analysis in this conversation, but the connected GitHub file operation only supports UTF-8 text files, not binary PDF uploads. I have not placed a fake or corrupted PDF in the repository. Upload `Capstone report.pdf` to the repository's `report/` folder using GitHub's web UI to make the original PDF downloadable alongside the DL project report.
+**[Read the Capstone Report (PDF)](https://github.com/user-attachments/files/33627787/Capstone.report.pdf)** — the original report is hosted as a GitHub attachment.
 
 ## Included
 - `backend/`: FastAPI API: `/health`, `/predict_disease`, `/predict_cases`, `/forecast`.
