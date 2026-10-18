@@ -6,6 +6,25 @@ The goal is to predict disease category and weekly case counts using temporal, g
 
 > **Important:** The original dataset (`Final_data.csv`), fitted model artifacts and original frontend source were not in this repository snapshot. This repo includes a runnable reconstruction, data-preparation/training code and a clearly labeled demo mode. Demo outputs are illustrative, not validated epidemiological forecasts.
 
+
+## Project visuals
+
+### System architecture
+
+![System architecture](assets/system-architecture.svg)
+
+### Model comparison reported in the capstone
+
+![Reported model comparison](assets/model-comparison.svg)
+
+The comparison graphic reproduces the MAE/RMSE values printed in Table 5.5.1 of the report; it is a visual rendering of reported values, not a new evaluation run.
+
+## Capstone report and source-code appendix
+
+The report's appendix (Chapter 8, PDF pages 51–96) contains preprocessing, feature engineering, Random Forest/XGBoost and GRU/LSTM examples, LLM prompt construction, FastAPI endpoints, dashboard React snippets and final classifier/regressor code. See [Appendix implementation notes](docs/REPORT_APPENDIX_NOTES.md) for an index and the important implementation details used in this reconstruction.
+
+**PDF note:** the uploaded original PDF was available for analysis in this conversation, but the connected GitHub file operation only supports UTF-8 text files, not binary PDF uploads. I have not placed a fake or corrupted PDF in the repository. Upload `Capstone report.pdf` to the repository's `report/` folder using GitHub's web UI to make the original PDF downloadable alongside the DL project report.
+
 ## Included
 - `backend/`: FastAPI API: `/health`, `/predict_disease`, `/predict_cases`, `/forecast`.
 - `dashboard/`: Streamlit dashboard with a multi-week forecast chart and CSV download.
