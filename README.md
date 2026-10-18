@@ -6,13 +6,6 @@ The goal is to predict disease category and weekly case counts using temporal, g
 
 > **Important:** The original dataset (`Final_data.csv`), fitted model artifacts and original frontend source were not in this repository snapshot. This repo includes a runnable reconstruction, data-preparation/training code and a clearly labeled demo mode. Demo outputs are illustrative, not validated epidemiological forecasts.
 
-
-
-[Capstone report.pdf](https://github.com/user-attachments/files/33627787/Capstone.report.pdf)
-
-
-
-
 ## Project visuals
 
 ### System architecture
